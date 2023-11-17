@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Enter your name");
 string username = Console.ReadLine();
 
-if(username == "Danya")
+if(username.ToLower() == "gay")
 {
     Console.WriteLine("Go play dota2");
 }
