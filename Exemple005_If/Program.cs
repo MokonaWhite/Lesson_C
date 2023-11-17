@@ -1,12 +1,12 @@
 ﻿Console.WriteLine("Enter your name");
-string user name = Console.ReadLine;
+string username = Console.ReadLine();
 
-if(username == "Masha")
+if(username == "Danya")
 {
     Console.WriteLine("Go play dota2");
 }
 else
 {
-    Console.Write("Hello, ");
+    Console.Write("Go to NAHUI, ");
     Console.WriteLine(username);
 }
